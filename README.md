@@ -1,2 +1,16 @@
 # ATRAGMX_PRESETS
-This is a text file containing a variable to store atrag mx presets for arma 3.
+To import these presets, you need to run:
+```sqf
+profileNamespace setVariable ["ACE_ATRAGMX_gunList", ThePresetArray];
+```
+Where `ThePresetArray` is the text from the preset.sqf file.
+
+If you want to contribute a preset, you can export your ATRAGMX presets by running:
+```sqf
+profileNamespace setVariable ["ACE_ATRAGMX_gunList", []];
+```
+Then, you can copy the output from the `profileNamespace getVariable "ACE_ATRAGMX_gunList";` command and add it to the preset file.
+
+Please follow the naming convention of ['mod name' 'gun name' 'ammo name'] for the preset title, and make sure to group each preset by mod.
+
+Credit to ACE3 discord user PabstMirror for the commands.
