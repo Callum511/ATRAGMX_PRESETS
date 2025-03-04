@@ -7,7 +7,7 @@ Where `ThePresetArray` is the text from the preset.sqf file. Be aware that you m
 
 If you want to contribute a preset, you can export your ATRAGMX presets by running:
 ```sqf
-profileNamespace setVariable ["ACE_ATRAGMX_gunList", []];
+profileNamespace getVariable ["ACE_ATRAGMX_gunList", []];
 ```
 Then, you can copy the output from the `profileNamespace getVariable "ACE_ATRAGMX_gunList";` command and add it to the preset file.
 
