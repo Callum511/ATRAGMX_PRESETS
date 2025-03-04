@@ -3,7 +3,7 @@ To import these presets, you need to run:
 ```sqf
 profileNamespace setVariable ["ACE_ATRAGMX_gunList", ThePresetArray];
 ```
-Where `ThePresetArray` is the text from the preset.sqf file.
+Where `ThePresetArray` is the text from the preset.sqf file. Be aware that you may need to reload the mission to see the changes.
 
 If you want to contribute a preset, you can export your ATRAGMX presets by running:
 ```sqf
